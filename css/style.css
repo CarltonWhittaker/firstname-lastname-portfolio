@@ -1,0 +1,211 @@
+body {
+  color:#dd33ff ;
+  border-top-color: #cceeff;
+  border-top-style: solid;
+  border-top-width: .8em; 
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-weight: 600;
+  margin: -1em;
+}
+
+.masthead-intro,
+.masthead-heading{
+  text-align: center;
+}
+
+.masthead-heading{
+  text-align: center;
+} 
+
+.masthead{
+  padding: 4em 10em ;
+  background-image: url('http://i1382.photobucket.com/albums/ah268/Takeaim/45FrPhQaQL26yBeYQvR2_telesiegeice_zpsx3p7yhfy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-top-width: 15px;
+  border-top-color: #398892;
+  border-bottom-style: none;
+  }
+
+.masthead-intro{
+  margin-bottom: 0.1em;
+  font-size: 1.5em;
+  color: white;
+  
+}
+ 
+ .masthead-heading{
+   margin-top: .1em;
+   font-size: 4em;text-shadow: 0.07em 0.03em .09em
+  #398892;
+     color: white;
+ }
+
+
+h1{
+  text-align: justify; 
+  font-size: 2.1875em;
+  margin: 0em;
+  font-weight: 600;
+  border-bottom-width: 60px;
+  color:#398892 ;
+  }
+
+.introduction,
+.where,
+.more{
+  text-align: justify;
+  font-size: 1em;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-top: 3em;
+  font-weight: 500;
+  padding: 2em;
+  color: #398892;
+ }
+
+ p {
+  font-weight: 400 ;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+ 
+.silver{
+  color: #8266aa;
+  font-weight: 900;
+ }
+
+span, uni,link{
+  color: ##398892;
+  font-weight: 900;
+}
+
+a{
+ text-decoration: none;
+}
+
+ h2{
+  font-weight: 200;
+  color: #395f92;
+  font-size: 1.3em;
+  padding: 1.5em;
+  text-align: justify; 
+  margin-left:-1.5em;
+  margin-right: auto;
+   }
+
+ section{
+  background-color:#ffffff ;
+  padding: 1em;
+}
+
+  .real{
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #533992;
+ }
+
+.code{
+  font-weight: 900;
+  color: #533992;
+}
+
+.content{
+  background-color: #078c9a;
+  padding: 3em;
+  margin: auto auto;
+  border-style: none;
+  border-top-width: none;
+}
+
+li{
+  display: inline-block;
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+  }
+
+ul{ 
+  text-align: center;
+  word-spacing:4em;
+  color: orange;
+  font-weight: 900
+  padding-left: 40px padding-right:40px;
+}
+.splash{
+  color: red;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.content p{
+  text-align: center;
+  padding: 1em;
+  margin: .5em .5em .5em .5em; 
+  color: white;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.content li{
+  display: inline;
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+  }
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+  .masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+   }
+    
+    introduction p, where p, more p{
+      font-weight: 500;
+      letter-spacing: 0.05em;
+    }
+    
+   .section h2{
+  font-family: 'Gentium book basic' Georgia serif;
+  font-size: 1.2em;
+  font-wight: bold;
+    }
+ .mus{
+  font-weight: 700;
+  color: #318AB0;
+}
+
+@media only screen (max-width: 500px){
+  .masthead-heading {
+    font-size: 3em;
+  }
+.masthead{
+    padding: 3em 0;
+}
+.content{
+  font-size: 1em;
+  }
+.content li{
+  padding: padding-left 40px padding-right 40px;
+}
+}
